@@ -16,9 +16,9 @@ To enable this sensor in your installation, add the following to your `configura
 ```yaml
 # Example configuration.yaml entry
 sensor:
-  platform: neurio_energy
-  api_key: CLIENT_ID
-  api_secret: CLIENT_SECRET
+  - platform: neurio_energy
+    api_key: CLIENT_ID
+    api_secret: CLIENT_SECRET
 ```
 
 Two sensors will be created with the following names:
